@@ -2,9 +2,11 @@ body{
 font-size: 13px;
 font-family: Times New Roman", Times, serif;
 margin:0;
+width
 }
 
 h1 {
-  font-size:40px;
+  font-size:100px;
   color:#97c239;
+  text-transform: uppercase;
 }
