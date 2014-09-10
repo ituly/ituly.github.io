@@ -1,12 +1,16 @@
 body{
 font-size: 13px;
 font-family: Times New Roman", Times, serif;
-margin:20px;
-width:600px;
+margin:0px;
 }
 
 h1 {
   font-size:60px;
   color:#97c239;
   text-transform: uppercase;
+}
+
+div.main{
+margin:20px;
+width:600px;
 }
