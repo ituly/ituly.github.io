@@ -1,18 +1,145 @@
-body{
-font-size: 13px;
-font-family: Times New Roman", Times, serif;
-margin:0px;
-background:#f5f5f5;
+body
+{
+	margin: 0 0 30px 0;
+	padding: 0;
+	background: #a7afb6;
+	font-size: 75%;
+	font-family: "arial", "verdana", "tahoma", "georgia";
+	color: #666;
 }
 
-h1 {
-  font-size:60px;
-  color:#97c239;
-  text-transform: uppercase;
-  margin:0;
+.maincontimg
+{
+	margin: 7px;
+	float: left; 
 }
 
-div#main{
-margin:20px;
-width:600px;
+#container
+{
+	margin: 30px auto;
+	width:  800px;
+	background-color: #effbff;
+	
+}
+
+#headercont
+{
+	width:   800px;
+	height: 400px;
+}
+
+#maincont
+{
+	width:  800px;
+	line-height: 160%;
+	padding: 15px 0 0 0;
+	border-bottom: 11px solid #c9dbe1;
+}
+
+
+h1{ border-top:3px solid #8d6a4a;
+    font-size: 7pt; 
+	font-family: arial;
+	font-style: italic;
+    text-transform:uppercase; 
+	font-weight:normal;
+    background-color:#e0f8ff;
+	color:#8d6a4a;
+	text-align:center;
+	margin-bottom: 10px; 
+	margin-top: 5px; 
+    padding-top:10px;
+    padding-bottom:10px;
+	letter-spacing:1px;
+    line-height: 11px; }
+
+ h2
+{
+	margin: 0;
+	font-size: 11px;
+	color: #8d6a4a;
+	line-height: 140%;
+	text-transform: UPPERCASE;
+	text-align:center;
+	font-style:italic
+}
+
+b, i, u, s {color: #5d4b84;}
+
+
+
+#main
+{
+	float: left;
+	width: 450px;
+	padding: 20px;
+	margin-left: 20px;
+	font-family:  trebuchet ms;
+	text-align:justify;
+}
+
+#main a { 
+	text-transform: UPPERCASE;
+	color: #8d6a4a; 
+	text-decoration:none;
+	font-size:10px;}
+	
+#main a:hover {
+	color: #fff;
+}
+
+	
+#mainright
+{
+	float: left;
+	width: 230px;
+	padding: 15px;
+	margin-left: 30px;
+	margin-top: -20px;
+	font-size: 11px;
+	line-height: 13px;
+	color: #e74142;
+	background-color:#291e1d;
+}
+
+
+.menu ul
+{
+	padding:5px 0 0 0;
+	margin-top:30px;
+	margin-left:35px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	list-style:none;
+	text-indent:15px;
+	width: 160px;
+}
+.menu ul li
+{
+	background:#cae7f0;
+	line-height:28px;
+    border-bottom:1px solid #fff;
+}
+.menu ul li a
+{
+	text-decoration:none;
+	color:#7c6f7c;
+	display:block;
+}
+.menu ul li a:hover
+{
+	background:#fff;
+	color: #343d68;
+}
+
+#bottom
+{
+	clear: both;
+	width: 630px;
+}
+
+#footer
+{
+	float: left;
+	height: 80px;
 }
